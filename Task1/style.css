@@ -1,0 +1,133 @@
+body {
+    background-color: rgb(169, 169, 169);
+}
+
+.first-header {
+    display: flex;
+    justify-content: center;
+    font-family: myFirstFont;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+    font-size: 65px;
+    position: relative;
+    top: -28px;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(Kari\ Pro\ Italic.ttf);
+}
+
+@font-face {
+    font-family: mySecondFont;
+    src: url(Metro\ Nova\ W04\ Condensed\ Medium.ttf);
+}
+
+.header {
+    display: flex;
+    list-style-type: none;
+    background-color: rgb(255, 128, 255);
+    font-family: mySecondFont;
+    justify-content: space-around;
+    padding: 18px;
+    position: relative;
+    margin: 201px;
+    top: -210px;
+    width: 1220px;
+    margin-left: 124px;
+}
+
+
+.search {
+    display: flex;
+}
+
+.nav {
+    margin-left: -100px;
+    font-size: 17px;
+    display: flex;
+}
+
+.header li {
+    margin-left: 100px;
+}
+
+#search {
+    font-size: 18px;
+}
+
+#button {
+    font-size: 19px;
+    position: relative;
+    bottom: -1px;
+    margin-left: -90px;
+}
+
+
+.heading-related {
+    display: flex;
+    justify-content: space-around;
+}
+
+.heading{
+    background-color: white;
+    width: 980px;
+    margin-left: 81px;
+    position: relative;
+    top: -5px;
+
+}
+
+.related{
+    background-color: rgb(255, 128, 255);
+    position: relative;
+    left: -80px;
+    width: 270px;
+    top: -5px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: myFirstFont;
+    color: black;
+    font-size: 40px;
+    position: relative;
+    top: -28px;
+    margin-top: 34px;
+    margin-bottom: 0px;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-left: 15px;
+    margin-top: auto    ;
+}
+
+h2 {
+    margin-left: 15px;
+    font-family: 'myFirstFont';
+}
+
+.related ul {
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.related ul li {
+    padding-bottom: 22px;
+}
+
+.related ul li a{
+color: RGB(56 10 226);
+}
+
+.copyright {
+    width: 1220px;
+    background-color: white;
+    margin-left: 124px;
+    padding: 18px;
+    position: relative;
+    top: 5px;
+}

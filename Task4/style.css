@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(./Images/surface.jpg);
+}
+
+.nav-area {
+    background-color: white;
+    display: flex;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.menu ul li a{
+  color: #000;
+  cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+}
+
+.menu ul li {
+    border-right: 1px #909090 solid;
+    padding: 0 15px;
+    font-size: 17px;
+    margin-top: 32px;
+}
+
+.menu li:last-child {
+    border-right: none;
+  }
+
+.name h1{
+    background-color: rgb(79,171,165);
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-right: 280px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 28px;
+    margin-top: 10px;
+}
+
+.name {
+    padding-left: 50px;
+    padding-right: 70px;
+    margin-left: 60px;
+}
+
+.menu {
+    display: 1;
+    margin-left: 280px;
+}
+
+.about{
+    background-color: white;
+    width: 56%;
+    margin-top: 20px;
+    margin-left: 110px;
+}
+
+.image img {
+    float: left;
+    height: 200px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.main {
+    display: flex;
+}
+
+.paragraph {
+    margin-left: 25px;
+    margin-right: 25px;
+    font-family: system-ui;
+    line-height: 30px;
+    color: rgb(129,125,136);
+}
+
+.paragraph h2 {
+    color: rgb(120,119,119);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.secondParagraph{
+    margin-top: 20px;
+}
+
+.about h1 {
+    margin-left: 23px;
+    margin-top: 15px;
+    color: rgb(79,171,165);
+    border-bottom: 4px solid rgb(223,223,223);
+    margin-right: 25px;
+}
+
+
+.connect{
+    background-color: white;
+    margin-right: 220px;
+    margin-top: 20px;
+    margin-left: 34px;
+    flex: 1;
+    margin-bottom: 460px;
+}
+
+
+.connect h2 {
+
+    border-bottom: 4px solid rgb(223,223,223);
+    color: rgb(79,171,165);
+    display: flex;
+    padding-bottom: 9px;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+
+}
+
+.connect img{
+    height: 75px;
+    padding: 10px;
+}
+
+.foot p {
+    border-top: 7px solid rgb(79,171,165);
+    background-color: rgb(102,102,102);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,33 @@
+.banner {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(139,69,31);
+    margin: -8px;
+    height: 43vh;
+    align-items: center;
+
+}
+
+.header {
+    background-color: rgb(210,162,98);
+    margin: -8px;
+    margin-top: -16px;
+    height: 57vh;
+}
+
+
+ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+
+}
+
+li {
+    padding: 15px;
+    color: green;
+}
+
+p.info{
+    color: rgb(152,99,57);
+}

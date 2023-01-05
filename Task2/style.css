@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(210, 218, 218);
+}
+
+h1 {
+    font-family: sans-serif;
+}
+
+p{
+    background-color: rgb(255,104,181);
+    color: white;
+    font-family: sans-serif;
+    font-weight: 100;
+    border-radius: 5px;
+    padding: 3px;
+    margin-bottom: 38px;
+}
+
+.list-item-card {
+    color: rgb(213,141,177);
+}
+
+ul {
+    font-family: sans-serif;
+    
+      
+}
